@@ -4,7 +4,7 @@ import Items from "./pages/Items";
 import ReportItem from "./pages/ReportItem";
 import ClaimItem from "./pages/ClaimItem";
 
-const API_URL = "https://your-app.onrender.com"; // ← change this
+const API_URL = "http://localhost:8000";
 
 export { API_URL };
 
