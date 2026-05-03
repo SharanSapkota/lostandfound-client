@@ -1,16 +1,42 @@
-# React + Vite
+# Lost and Found Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React frontend for the University Lost and Found API.
 
-Currently, two official plugins are available:
+## Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Items** – Browse all found items
+- **Login** – Login with email and password
+- **Report Item** – Report a found item (requires login)
+- **Claim Item** – Claim a found item (requires login)
 
-## React Compiler
+## Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Clone the repository
 
-## Expanding the ESLint configuration
+git clone https://github.com/SharanSapkota/lostandfound-client.git
+cd lostandfound-client
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Install dependencies
+
+npm install
+
+### 3. Set the API URL
+
+Open src/App.jsx and update line 4:
+
+
+### 4. Run the app
+
+npm run dev
+
+Open http://localhost:5173 in your browser.
+
+## Technologies
+
+- React
+- Vite
+- Fetch API (no extra libraries)
+
+## API
+
+This client connects to the Lost and Found REST API.
