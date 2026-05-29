@@ -4,7 +4,7 @@ import Items from "./pages/Items";
 import ReportItem from "./pages/ReportItem";
 import ClaimItem from "./pages/ClaimItem";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "http://localhost:8000/api/v1";
 
 export { API_URL };
 
